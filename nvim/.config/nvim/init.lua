@@ -3,4 +3,4 @@ require("options")
 require("keymaps")
 
 -- Load colorscheme
-vim.cmd("colorscheme quiet")
+vim.cmd("colorscheme default")

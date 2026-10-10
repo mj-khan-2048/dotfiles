@@ -1,0 +1,12 @@
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[user]
+	name = John Smith
+	email = johnsmith@email.com
+	signingkey = ~/path/to/github_sign_public-key
+[gpg "ssh"]
+	allowedSignersFile = ~/.ssh/allowed_signers

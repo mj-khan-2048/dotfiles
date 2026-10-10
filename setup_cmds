@@ -1,0 +1,23 @@
+neovim
+tmux
+gcc
+make
+npm
+nodejs
+git
+zsh
+python3-pip
+
+sudo chsh -s /usr/bin/zsh "$USER"
+
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ~/.zsh/custom/plugins/fast-syntax-highlighting 
+git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh/custom/plugins/zsh-autosuggestions 
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh/custom/plugins/powerlevel10k 
+
+git clone https://github.com/mj-khan-2048/dotfiles.git
+
+cd ~/dotfiles
+stow -S zsh
+stow -S tmux

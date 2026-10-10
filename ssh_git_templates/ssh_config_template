@@ -1,0 +1,13 @@
+Host github
+    HostName github.com
+    User git
+    IdentityFile ~/path/to/github_auth_private-key
+    AddKeysToAgent yes
+
+Host example-server
+    HostName server.example.com
+    User john
+    Port 22
+    IdentityFile ~/path/to/example-server_login_private_key
+    AddKeysToAgent yes
+

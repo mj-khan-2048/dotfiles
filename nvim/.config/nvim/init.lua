@@ -1,6 +1,7 @@
 -- Load core config modules
-require("options")
-require("keymaps")
+require("config.plugins")
+require("config.options")
+require("config.keymaps")
 
 -- Load colorscheme
-vim.cmd("colorscheme default")
+vim.cmd.colorscheme("wildcharm")

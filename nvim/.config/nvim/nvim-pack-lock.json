@@ -1,0 +1,16 @@
+{
+  "plugins": {
+    "arrow.nvim": {
+      "rev": "6e0f726f55f99332dd726a53effd6813786b6d49",
+      "src": "https://github.com/otavioschwanck/arrow.nvim"
+    },
+    "fzf-lua": {
+      "rev": "9405672f62767695d5f20db171336f7f4911ce86",
+      "src": "https://github.com/ibhagwan/fzf-lua"
+    },
+    "nvim-web-devicons": {
+      "rev": "ec309a0eaff6ea967e58c275996155ab5c16938d",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
+    }
+  }
+}

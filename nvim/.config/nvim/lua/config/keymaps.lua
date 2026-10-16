@@ -1,8 +1,5 @@
 -- keymaps.lua
 
--- Set leader
-vim.g.mapleader = " "
-
 -- Toggle relative line numbers
 vim.keymap.set("n", "<leader>rn", function()
     vim.wo.relativenumber = not vim.wo.relativenumber 

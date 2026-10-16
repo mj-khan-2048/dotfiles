@@ -14,4 +14,5 @@ vim.pack.add({
     { src = "https://github.com/ibhagwan/fzf-lua" },
     { src = "https://github.com/otavioschwanck/arrow.nvim" },
     { src = "https://github.com/nvim-treesitter/nvim-treesitter" },
+    { src = 'https://github.com/neovim/nvim-lspconfig' },
 })

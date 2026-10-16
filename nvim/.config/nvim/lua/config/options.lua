@@ -20,6 +20,7 @@ vim.opt.cursorline = true
 vim.opt.termguicolors = true 
 vim.opt.wrap = false
 vim.opt.scrolloff = 8        -- Keep 8 lines visible above and below cursor
+vim.opt.completeopt = "menuone,noselect,popup" -- autocomplete stuff
 
 -- Splits
 vim.opt.splitright = true

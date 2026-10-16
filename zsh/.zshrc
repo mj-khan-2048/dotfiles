@@ -39,7 +39,7 @@ do
 done
 
 # Tools (only if installed) 
-(( $+commands[zoxide] )) && eval "$(zoxide init zsh --cmd z)"
+(( $+commands[zoxide] )) && eval "$(zoxide init zsh --cmd cd)"
 (( $+commands[eza] )) && alias ls='eza --icons=auto'
 
 # Prompt config (run `p10k configure` to change) 

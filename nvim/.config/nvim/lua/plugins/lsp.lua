@@ -1,4 +1,24 @@
-vim.lsp.enable("ts_ls")
+vim.lsp.config("typescript_native", {
+  cmd = {
+    "tsc",
+    "--lsp",
+    "--stdio",
+  },
+  filetypes = {
+    "typescript",
+    "typescriptreact",
+    "javascript",
+    "javascriptreact",
+  },
+  root_markers = {
+    "tsconfig.json",
+    "jsconfig.json",
+    "package.json",
+    ".git",
+  },
+})
+
+vim.lsp.enable("typescript_native")
 
 vim.api.nvim_create_autocmd("LspAttach", {
     callback = function(args)
